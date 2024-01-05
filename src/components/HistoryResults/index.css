@@ -1,0 +1,38 @@
+.websites {
+  list-style-type: none;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.links-list {
+  display: flex;
+  margin: 15px;
+}
+
+.link-logo {
+  height: 75%;
+}
+
+.links-data {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.time-data {
+  margin-right: 35px;
+}
+
+.delete-btn {
+  background-color: transparent;
+  align-items: center;
+  margin-left: auto;
+  border: none;
+}
+
+.link-logo,
+.link-title,
+.link-url {
+  margin-right: 25px;
+}
